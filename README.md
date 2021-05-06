@@ -1,3 +1,4 @@
+################
 This is a sample repo, hello
 md = markdown file
 
@@ -15,6 +16,14 @@ cltr l
 #get status 
 git status
 
+____________
+#Checkout det som er ikke submit
+git checkout.README.md
+
+#Check out den versjon som er sjekket in
+git checkout master
+#or versjon , ta med dele string av log
+git checkout a418389abcafdc1aec22e7 
 ______________
 
 # add single file or add changes to a file
@@ -27,7 +36,7 @@ git diff README.md
 git commit -m "initial commit"
 
 #Send/Push files to github
-git push -u origin master
+git push -u origin main
 (origin -which branch )
 (master - Code frontpage of github)
 
