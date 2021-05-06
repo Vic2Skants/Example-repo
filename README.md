@@ -15,19 +15,26 @@ cltr l
 #get status 
 git status
 
-# add single file
+______________
+
+# add single file or add changes to a file
 git add README.md
 
 #See changes to file 
 git diff README.md
 
-#submit to changes
+#Submit to changes 
 git commit -m "initial commit"
 
-#Send files to github
+#Send/Push files to github
 git push -u origin master
 (origin -which branch )
 (master - Code frontpage of github)
+
+
+#for å sjekke log
+git log
+_____________________________
 
 
 
